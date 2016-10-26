@@ -1,4 +1,5 @@
 <meta charset="UTF-8">
+<<<<<<< HEAD
 <div class="overlay" id="overlay">
     <div class="popup">
         <center>
@@ -56,6 +57,12 @@
 <header class="main_header">
     <div class="log_in">
         <button onclick="openavtor();">Log in</button>
+=======
+
+<header class="main_header">
+    <div class="log_in">
+        <button>Log in</button>
+>>>>>>> remotes/origin/markitan
     </div>
     <div class="logo">
         <img src="\images\media_header.png" class="img-logo">
@@ -63,7 +70,11 @@
     </div>
     <div class="menu">
         <ul>
+<<<<<<< HEAD
             <li><a href="main.php">Home</a></li>
+=======
+            <li><a href="index.php">Home</a></li>
+>>>>>>> remotes/origin/markitan
             <li><a href="video.php">Video</a></li>
             <li><a href="photo.php">Photo</a></li>
             <li><a href="audio.php">Music</a></li>
