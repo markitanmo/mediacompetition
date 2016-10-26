@@ -1,0 +1,234 @@
+@font-face {
+    font-family: anfisagrotesk;
+    src: url(../fonts/anfisagrotesk.ttf);
+}
+@font-face {
+    font-family: boomboom;
+    src: url(../fonts/boomboom.ttf);
+}
+@font-face {
+    font-family: Decorlz;
+    src: url(../fonts/decorlz.ttf);
+}
+@font-face {
+    font-family: Badscriptregular;
+    src: url(../fonts/Badscriptregular.ttf);
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    margin: 0;
+    padding: 0;
+}
+.resize{
+    margin: 0 25% 0 25%;
+}
+/*----------------header----------------*/
+.main_header{
+    background-image: url("/images/backhead.jpg");
+    background-size: 100% 100%;
+    height: 440px;
+    width: 100%;
+}
+.main_header div{
+    width: 100%;
+}
+.log_in{
+    height: 80px;
+}
+.log_in button{
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 16px;
+    border: none;
+    border-radius: 20px;
+    float: right;
+    margin: 15px 25px 0 0;
+    background-color: #9900CC;
+    font-family: boomboom;
+}
+.logo{
+    height: 270px;
+}
+.logo .img-logo{
+    width: 200px;
+    margin: 35px 20px 35px 35px;
+    float: left;
+}
+.logo h1{
+    width: 80%;
+    float: right;
+    text-align: left;
+    font-size: 110px;
+    font-family: anfisagrotesk;
+    background: -moz-linear-gradient(#FFFFFF,#9900CC);
+    background: -webkit-linear-gradient(#FFFFFF,#9900CC);
+    background: -o-linear-gradient(#FFFFFF,#9900CC);
+    background: -ms-linear-gradient(#FFFFFF,#9900CC);
+    background: linear-gradient(#FFFFFF,#9900CC);
+    -webkit-background-clip: text;
+    color: transparent;
+    margin: 55px 0 55px 0;
+}
+.menu{
+    height: 90px;
+}
+.menu ul{
+    margin: 20px 0 0 0;
+    float: right;
+}
+.menu ul li{
+    display: inline;
+    list-style: none;
+    padding: 0 20px 0 20px;
+    margin: 26px 0 26px 0;
+    font-size: 34px;
+    /*border-bottom: 5px inset #9900CC;*/
+}
+.menu ul li a{
+    text-decoration: none;
+    font-family: boomboom;
+    color: #FFFFFF;
+    padding: 23px 0 23px 0;
+    /*border-bottom: 5px inset #9900CC;*/
+}
+.menu ul li a:hover{
+    border-bottom: 8px inset #9900CC;
+    color: #9900CC;
+}
+/*---------------footer-----------------*/
+footer{
+    margin: 0;
+    padding: 20px 0 0 0;
+    width: 100%;
+    height: 50px;
+    background-color: #17001F;
+}
+footer p{
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    color: #9900CC;
+    width: 42%;
+}
+footer .copyrright{
+    float: left;
+    padding-left: 100px;
+}
+footer .namesite{
+    float: right;
+    text-align: right;
+    padding-right: 100px;
+}
+/*----------------INDEX----------------*/
+.content{
+    margin: 0;
+    padding: 0;
+    background: -moz-linear-gradient(to bottom left,#FFFFFF,#CC66FF);
+    background: -webkit-linear-gradient(to bottom left,#FFFFFF,#CC66FF);
+    background: -o-linear-gradient(to bottom left,#FFFFFF,#CC66FF);
+    background: -ms-linear-gradient(to bottom left,#FFFFFF,#CC66FF);
+    background: linear-gradient(to bottom left,#FFFFFF,#CC66FF);
+    -webkit-background-clip: content-box;
+}
+.inform{
+    margin-left: 10px;
+    height: 220px;
+}
+.inform img{
+    width: 45%;
+    margin-left: 10px;
+}
+.date{
+    padding: 0;
+    margin: 0 0 5px 5px;
+    font-size: 14px;
+
+}
+.name_block{
+    border-left: 5px solid;
+    border-color: #9900CC;
+
+}
+.name_block h2{
+    padding: 0 0 0 10px;
+    text-align: left;
+    margin: 0 0 10px 0;
+}
+.first{
+    padding-top: 10px;
+}
+/*----------------Video----------------*/
+.inform_video video{
+    width: 48%;
+    margin-left: 10px;
+}
+.inform_video_more video{
+    width: 100%;
+    margin-left: 10px;
+}
+.site_header{
+    font-size: 70px;
+    background: -moz-linear-gradient(crimson,#CC66FF);
+    background: -webkit-linear-gradient(crimson,#CC66FF);
+    background: -o-linear-gradient(crimson,#CC66FF);
+    background: -ms-linear-gradient(crimson,#CC66FF);
+    background: linear-gradient(crimson,#CC66FF);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-family: Decorlz;
+    margin: 0;
+}
+/*----------------Audio----------------*/
+.inform_audio audio{
+    width: 80%;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+.inform_audio .mus_p{
+    margin-bottom: 0;
+    color: maroon;
+    font-family: Badscriptregular;
+}
+.inform_audio .more{
+    margin-left: 500px;
+    color: #17001F;
+}
+.resize .more{
+    margin-left: 500px;
+    color: chocolate;
+}
+.resize .third{
+    padding-bottom: 20px;
+}
+/*----------------Photo----------------*/
+.inform_foto .photo_name{
+    color: darkorange;
+}
+.inform_foto{
+    margin-left: 10px;
+    height: 190px;
+}
+.inform_foto img{
+    width: 30%;
+    margin-left: 10px;
+}
+.inform_video_more .mus_p{
+    margin-bottom: 0px;
+    color: maroon;
+    font-family: Badscriptregular;
+}
+#pagingControls {
+    padding-top:15px;
+    font-weight:bold;
+}
+#pagingControls ul {
+    display:inline;
+    padding-left:0.5em;
+}
+#pagingControls li {
+    display:inline;
+    padding:0 0.5em
+}
