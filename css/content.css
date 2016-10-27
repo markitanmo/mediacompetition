@@ -1,0 +1,118 @@
+@font-face {
+    font-family: Decorlz;
+    src: url(../fonts/decorlz.ttf);
+}
+@font-face {
+    font-family: Badscriptregular;
+    src: url(../fonts/Badscriptregular.ttf);
+}
+/*----------------INDEX----------------*/
+.content{
+    margin: 0;
+    padding: 0;
+    background: -moz-linear-gradient(to bottom left,#FFFFFF,#CC66FF);
+    background: -webkit-linear-gradient(to bottom left,#FFFFFF,#CC66FF);
+    background: -o-linear-gradient(to bottom left,#FFFFFF,#CC66FF);
+    background: -ms-linear-gradient(to bottom left,#FFFFFF,#CC66FF);
+    background: linear-gradient(to bottom left,#FFFFFF,#CC66FF);
+    -webkit-background-clip: content-box;
+}
+.inform{
+    margin-left: 10px;
+    height: 220px;
+}
+.inform img{
+    width: 45%;
+    margin-left: 10px;
+}
+.date{
+    padding: 0;
+    margin: 0 0 5px 5px;
+    font-size: 14px;
+
+}
+.name_block{
+    border-left: 5px solid;
+    border-color: #9900CC;
+
+}
+.name_block h2{
+    padding: 0 0 0 10px;
+    text-align: left;
+    margin: 0 0 10px 0;
+}
+.first{
+    padding-top: 10px;
+}
+/*----------------Video----------------*/
+.inform_video video{
+    width: 48%;
+    margin-left: 10px;
+}
+.inform_video_more video{
+    width: 100%;
+    margin-left: 10px;
+}
+.site_header{
+    font-size: 70px;
+    background: -moz-linear-gradient(crimson,#CC66FF);
+    background: -webkit-linear-gradient(crimson,#CC66FF);
+    background: -o-linear-gradient(crimson,#CC66FF);
+    background: -ms-linear-gradient(crimson,#CC66FF);
+    background: linear-gradient(crimson,#CC66FF);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-family: Decorlz;
+    margin: 0;
+}
+/*----------------Audio----------------*/
+.inform_audio audio{
+    width: 80%;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+.inform_audio .mus_p{
+    margin-bottom: 0;
+    color: maroon;
+    font-family: Badscriptregular;
+}
+.inform_audio .more{
+    margin-left: 500px;
+    color: #17001F;
+}
+.resize .more{
+    margin-left: 500px;
+    color: chocolate;
+}
+.resize .third{
+    padding-bottom: 20px;
+}
+/*----------------Photo----------------*/
+.inform_foto .photo_name{
+    color: darkorange;
+}
+.inform_foto{
+    margin-left: 10px;
+    height: 190px;
+}
+.inform_foto img{
+    width: 30%;
+    margin-left: 10px;
+}
+.inform_video_more .mus_p{
+    margin-bottom: 0px;
+    color: maroon;
+    font-family: Badscriptregular;
+}
+#pagingControls {
+    padding-top:15px;
+    font-weight:bold;
+}
+#pagingControls ul {
+    display:inline;
+    padding-left:0.5em;
+}
+#pagingControls li {
+    display:inline;
+    padding:0 0.5em
+}
