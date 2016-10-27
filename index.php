@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <html>
 <head>
     <meta charset="UTF-8">
@@ -72,3 +73,12 @@
 </div>
 </body>
 </html>
+=======
+<?php
+/**
+ * Created by PhpStorm.
+ * User: marki
+ * Date: 24.10.2016
+ * Time: 12:19
+ */
+>>>>>>> 53451c4d321c00566455caf1ba6e851f65a8bc34
