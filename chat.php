@@ -7,7 +7,4 @@
  * Time: 10:00
  */
 
-
-
-
-#Hello, Bogdana. How are you?
+#Привіт
